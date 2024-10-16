@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+form{
+
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    min-height: fit-content;
+    padding: 2rem;
+
+}
+div{
+    display: flex;
+flex-flow: column nowrap;
+width: 80%;
+gap: 2rem;
+}
+input{
+    width: 100%;
+    padding: 12px;
+}
+.submit-button{
+    max-width: 200px;
+    margin: auto;
+   color: rgb(188, 196, 204);
+    background-color: rgb(59, 67, 187);
+}
+a{
+    color: rgb(34, 45, 192);
+}
+h1{
+    color: black;
+}
+label{
+    color: rgb(34, 45, 192);
+}
+
+
